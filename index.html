@@ -13,9 +13,12 @@
     <title>Password Generator</title>
 </head>
 
-<body>
-    <h1 class="h1">Randomized Password Generator</h1>
-
+<body class="body">
+    <!-- Page Header -->
+    <h1 class="header">Randomized Password Generator</h1>
+   
+    <!-- Bootstrap Card -->
+   
     <div class="card">
 
         <div class="row">
@@ -27,25 +30,28 @@
                     <h4> Random Password</h4>
                     <input type="text" id="display">
                     <input type="range" min="8" max="128" value="64" id="slider">
+                    <p class="text-center font-weight-bold">
+                        Password Length: <span id="passwordLengthView"></span>
+                    </p>
                     <button onclick="generate()">Generate</button>
-                    <button onclick=""> Copy</button>
+                
 
                     <!-- Toggle Buttons -->
 
                     <div class="setting">
-                        <input type="checkbox" id="uppercase" unchecked  />
+                        <input type="checkbox" id="uppercase" checked />
                         <label for="uppercase">Include Uppercase</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="lowercase" unchecked />
+                        <input type="checkbox" id="lowercase" checked />
                         <label for="lowercase">Include Lowercase </label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="symbol" unchecked />
+                        <input type="checkbox" id="symbol" checked />
                         <label for="symbol">Include Symbols</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="number" unchecked />
+                        <input type="checkbox" id="number" checked />
                         <label for="number">Include Numbers</label>
                     </div>
                 </div>
