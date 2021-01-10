@@ -1,4 +1,5 @@
-// Function for Password Generator
+// DOM 
+
 const slider = document.getElementById("slider");
 const upperCaseEl = document.getElementById("uppercase");
 const lowerCaseEl = document.getElementById("lowercase");
@@ -7,6 +8,8 @@ const symbolEl = document.getElementById("symbol");
 const displayEl = document.getElementById("display");
 
 
+
+// Function For Password Available Inputs
 
 function getAvailableCharacters() {
     let characters = "";
@@ -25,7 +28,7 @@ function getAvailableCharacters() {
     return characters;
 }
 
-
+// Password Generating Function
 
 function generate() {
     let length = slider.value;
