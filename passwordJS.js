@@ -24,7 +24,10 @@ function getAvailableCharacters() {
 
     } if (symbolEl.checked == true) {
         characters += "!@#$%^&*()_+=\[]";
+    } else {
+        prompt("A checkbox must be selected");
     }
+
     return characters;
 }
 
