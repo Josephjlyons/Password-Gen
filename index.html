@@ -28,13 +28,13 @@
                     
                     <!-- Display box, slider length value, generate button -->
 
-                    <h4> Random Password</h4>
+                    <h4 class="passheader"> Random Password</h4>
                     <input type="text" id="display">
-                    <input type="range" min="8" max="128" value="64" id="slider">
-                    <p class="text-center font-weight-bold">
+                    <input type="range" min="8" max="128" value="64" id="slider" step="1">
+                    <p class="passwordtitle" >
                         Password Length <span id="passwordLengthView"></span>
                     </p>
-                    <button onclick="generate()">Generate</button>
+                    <button class="generatebtn" onclick="generate()">Generate</button>
 
 
 
