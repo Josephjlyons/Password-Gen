@@ -17,4 +17,5 @@ Many many online web services: Youtube, W3schools, MDN.
 A big shout out to my tutor as well Bobby Hoffman. 
 
 ### Contact 
-josephjlyons90@gmail.com for questions or support with this program. 
+* Email: josephjlyons90@gmail.com
+* LinkedIn: www.linkedin.com/in/joseph-lyons-0a2630200/
