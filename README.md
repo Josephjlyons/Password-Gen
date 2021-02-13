@@ -1,14 +1,23 @@
 # Password-Gen
 
+![image of project](./asset/appImg.png)
+
+## Application Link
+
+[Deployed Application](https://josephjlyons.github.io/Password-Gen/)
+
 ## Purpose
 
-The purpose of this project was to created a random password generator that abides by certain criteria; when a certain character type (uppcase, lowercase, symbols, numbers) was selected or deselected the correspoding action would happen within the password. 
+The purpose of this project was to created a random password generator that abides by certain criteria; when a certain character type (uppercase, lowercase, symbols, numbers) was selected or deselected the corresponding action would happen within the password. 
 
 ### Codes 
-Simple HTML/CSS/JS coding was used, also the use of Bootstrap was included in this project. 
+* HTML
+* CSS
+* BootStrap
+* JavaScript
 
 ### How to Use 
-Simply adjust the slide bar to select length of the password you desire from a min of 8 characters to a max of 128 characters. Password length slider can be adjusted by clicking and sliding with the mouse or can be selected with mouse and slid with the arrow left and arrow right keys. Slider moves or steps at a single increment at a time. Once you have selected a length click generate and your password will appear in the text box. If you would like a more defined password with only certain character types use a checkbox to select or deselect. Password will be generated in the text bar, once it is feel free to copy it and use it as your own password. 
+Simply adjust the slide bar to select length of the password you desire from a min of 8 characters to a max of 128 characters. Password length slider can be adjusted by clicking and sliding with the mouse or can be selected with mouse and slide with the arrow left and arrow right keys. Slider moves or steps at a single increment at a time. Once you have selected a length click generate and your password will appear in the text box. If you would like a more defined password with only certain character types use a checkbox to select or deselect. Password will be generated in the text bar, once it is feel free to copy it and use it as your own password. 
 
 
 ### Mentions and Resources Used
